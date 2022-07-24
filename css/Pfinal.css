@@ -12,7 +12,7 @@
     align-items: center;
     width: 100vw;
     height: 100px;
-    background-color: rgb(5, 5, 5);
+    background-color: #050505;
     padding-left: 50px;
     padding: 10px;
     color: #ffecec;
@@ -38,6 +38,7 @@
     background-attachment: fixed;
 }
 
+
 .header nav ul li a {
     display: flex;
     position: relative;
@@ -48,6 +49,15 @@
     font-size: 18px;
     padding: 20px;
 }
+
+.header nav ul li:hover{
+    background-color: #ffffff;
+    }
+
+    .header nav ul li a:hover{
+        color: #010102;
+    }
+    
 
 .header nav h1 {
     display: flex;
@@ -103,7 +113,7 @@
 .contacto div img {
     width: 100px;
     height: 100px;
-    border-style: solid;
+    padding: 2px;
     border-color: #101215;
     border-radius: 10px;
 }
@@ -135,6 +145,9 @@
     transform: scale(1.05) translate(-3px);
 }
 
+.link-streaming img:hover{
+    transform: scale(1.05) translate(-3px);
+}
 
 
 
