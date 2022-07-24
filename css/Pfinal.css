@@ -54,7 +54,8 @@
     background-color: #ffffff;
     }
 
-    .header nav ul li a:hover{
+
+.header nav ul li a:hover{
         color: #010102;
     }
     
@@ -65,7 +66,6 @@
     left: 160px;
     padding-right: 100px;
 }
-
 
 
 /* ------ FOOTER  CONTACTO TODAS LAS PAGINAS ------ */
@@ -188,10 +188,15 @@
     text-decoration: none;
 }
 
+.registro h3{
+    text-align: center;
+}
 
 .registro h4 {
     margin-bottom: 20px;
     font-size: 22px;
+    padding-top: 40px;
+    text-align: left;
     text-decoration: none;
     text-decoration: none;
 
@@ -207,6 +212,18 @@
     background-color: #0e2b48;
     font-size: 18px;
 }
+
+.boton-enviar input:hover{
+    background-color: #c25226;
+    color: white;
+
+}
+
+.boton-enviar input:active{
+    background-color: rgba(207, 24, 0, 0.884);
+    color: rgb(9, 9, 128);
+}
+
 
 
 .nav-list a {
