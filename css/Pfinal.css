@@ -262,17 +262,17 @@
 
 .lista-estadistica {
     display: flex;
-    width: 400px;
+    width: 200px;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    padding-left: 300px;
+    padding-left: 250px;
 }
 
 
 .lista-estadistica div img {
-    width: 220px;
-    margin: 20px;
+    width: 180px;
+    margin: 10px;
 }
 
 
@@ -281,11 +281,12 @@
 /* -- SECCION HISTORIA-- */
 .historia-nba {
     grid-area: historia-nba;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: center;
     background-color: #f0efea;
-    padding: 50px;
+    padding:  -50px;
+    
     border: 2px solid #101215;
 }
 
@@ -351,7 +352,7 @@
     grid-area: aside;
     background-color: #f0efea;
     text-align: center;
-    padding: 40px;
+    width: 550px;
 }
 
 .aside h2 {
@@ -372,7 +373,15 @@
     box-shadow: 0px 1px 15px 2px #000000;
 }
 
+.intro-aside img{
+    width: 320px;
+    height: 200px;
+}
 
+.intro-aside h3{
+    text-align: center;
+    padding: 30px;
+}
 
 
 
@@ -406,7 +415,7 @@ header div {
 }
 
 
-section {
+.section-estadisticas {
     width: 100%;
     padding: 130px;
     position: relative;
