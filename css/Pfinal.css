@@ -36,8 +36,14 @@
     height: 100%;
     object-fit: contain;
     background-attachment: fixed;
+    transition: all 3s ease;
+
 }
 
+.header nav img:hover{
+    transform: scale(.8,.8);
+    transform: rotate(360deg);
+}
 
 .header nav ul li a {
     display: flex;
@@ -279,17 +285,17 @@
 
 .lista-estadistica {
     display: flex;
-    width: 400px;
+    width: 200px;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    padding-left: 300px;
+    padding-left: 250px;
 }
 
 
 .lista-estadistica div img {
-    width: 220px;
-    margin: 20px;
+    width: 180px;
+    margin: 10px;
 }
 
 
@@ -298,11 +304,12 @@
 /* -- SECCION HISTORIA-- */
 .historia-nba {
     grid-area: historia-nba;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: center;
     background-color: #f0efea;
-    padding: 50px;
+    padding:  -50px;
+    
     border: 2px solid #101215;
 }
 
@@ -368,7 +375,7 @@
     grid-area: aside;
     background-color: #f0efea;
     text-align: center;
-    padding: 40px;
+    width: 550px;
 }
 
 .aside h2 {
@@ -390,6 +397,27 @@
 }
 
 
+.intro-aside{
+    border: 3px solid #050505;
+    background-color: #3d64b9;
+    color: #f0efea;
+    justify-content: center;
+
+}
+
+
+.intro-aside img{
+    border: 2px solid #f7f7f7;
+    border-radius: 2px;
+    width: 350px;
+    height: 200px;
+}
+
+
+.intro-aside h3{
+    text-align: center;
+    padding: 10px;
+}
 
 
 
@@ -423,7 +451,7 @@ header div {
 }
 
 
-section {
+.section-estadisticas {
     width: 100%;
     padding: 130px;
     position: relative;
