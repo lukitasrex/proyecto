@@ -36,8 +36,14 @@
     height: 100%;
     object-fit: contain;
     background-attachment: fixed;
+    transition: all 3s ease;
+
 }
 
+.header nav img:hover{
+    transform: scale(.8,.8);
+    transform: rotate(360deg);
+}
 
 .header nav ul li a {
     display: flex;
@@ -373,14 +379,27 @@
     box-shadow: 0px 1px 15px 2px #000000;
 }
 
+
+.intro-aside{
+    border: 3px solid #050505;
+    background-color: #3d64b9;
+    color: #f0efea;
+    justify-content: center;
+
+}
+
+
 .intro-aside img{
-    width: 320px;
+    border: 2px solid #f7f7f7;
+    border-radius: 2px;
+    width: 350px;
     height: 200px;
 }
 
+
 .intro-aside h3{
     text-align: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 
